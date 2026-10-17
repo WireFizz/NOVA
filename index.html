@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="NOVA — thoughtfully picked essentials for work, home, and everywhere in between.">
+  <title>NOVA — Everyday, elevated.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    <p>Good things, delivered. <strong>Free shipping over $75</strong></p>
+    <a href="#shop">Explore the collection <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner page-width">
+      <button class="icon-button mobile-menu-button" id="mobileMenuButton" aria-label="Open navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="brand" href="#top" aria-label="NOVA home"><span class="brand-mark">n<span>.</span></span><span class="brand-word">nova</span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#shop">Shop all</a>
+        <a class="nav-link" href="#shop" data-nav-category="Tech">Tech</a>
+        <a class="nav-link" href="#shop" data-nav-category="Home">Home</a>
+        <a class="nav-link" href="#shop" data-nav-category="Style">Style</a>
+        <a class="nav-link" href="#story">Our story</a>
+      </nav>
+      <div class="header-actions">
+        <label class="search-box" for="searchInput">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.3 4.3"/></svg>
+          <input id="searchInput" type="search" placeholder="Search products" autocomplete="off" aria-label="Search products">
+          <kbd>⌘ K</kbd>
+        </label>
+        <button class="icon-button saved-button" id="savedButton" aria-label="Show saved items" title="Saved items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5.2-8.8 10-8.8 10S3.2 14 3.2 8.8A4.6 4.6 0 0 1 12 6.3a4.6 4.6 0 0 1 8.8 2.5Z"/></svg>
+          <span class="tiny-count" id="savedCount">0</span>
+        </button>
+        <button class="cart-button" id="openCartButton" aria-label="Open shopping cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span class="cart-label">Bag</span>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-width" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE EVERYDAY EDIT · VOL. 04</div>
+        <h1 id="hero-title">Everyday,<br><em>elevated.</em></h1>
+        <p class="hero-description">Useful things. Beautifully made. Meet the little upgrades that make your everyday feel a little more extraordinary.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#shop">Shop the collection <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#story">Why NOVA <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div>
+          <div><div class="star-row" aria-label="Rated 4.9 out of 5">★★★★★ <strong>4.9/5</strong></div><p>Loved by 2,000+ everyday explorers</p></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Featured lifestyle products">
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1100&q=90" alt="Minimal over-ear headphones in warm studio light" fetchpriority="high">
+          <div class="hero-image-shade"></div>
+          <div class="hero-image-note"><span class="note-overline">THE SOUND EDIT</span><strong>Find your<br>frequency.</strong><a href="#shop" data-featured-category="Tech">Shop audio <span>↗</span></a></div>
+          <div class="floating-stamp"><span>MADE FOR</span><strong>YOUR<br>EVERYDAY</strong><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3 28.2 17.8 42 10 34.2 23.8 49 28 34.2 32.2 42 46 28.2 38.2 24 53 19.8 38.2 6 46 13.8 32.2 -1 28 13.8 23.8 6 10 19.8 17.8Z" transform="translate(0 -4) scale(.92)"/></svg></div>
+        </div>
+        <div class="hero-caption"><span>01 / ALWAYS IN GOOD TASTE</span><span>CURATED WITH INTENTION ↗</span></div>
+      </div>
+      <div class="hero-background-word" aria-hidden="true">NOVA</div>
+    </section>
+
+    <section class="trust-strip" aria-label="Shopping benefits">
+      <div class="page-width trust-inner">
+        <div class="trust-item"><span class="trust-icon">✳</span><div><strong>Thoughtfully picked</strong><small>Quality over quantity</small></div></div>
+        <div class="trust-item"><span class="trust-icon">↗</span><div><strong>Fast, free shipping</strong><small>On orders over $75</small></div></div>
+        <div class="trust-item"><span class="trust-icon">♡</span><div><strong>Easy 30-day returns</strong><small>Try it, love it</small></div></div>
+        <div class="trust-item"><span class="trust-icon">☻</span><div><strong>Real human support</strong><small>Here when you need us</small></div></div>
+      </div>
+    </section>
+
+    <section class="shop-section page-width" id="shop">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> LESS SCROLLING, MORE LOVING</div><h2>Find your <em>next favorite.</em></h2></div>
+        <p>Good design. Everyday function.<br>Things you'll reach for on repeat.</p>
+      </div>
+      <div class="shop-controls">
+        <div class="category-pills" id="categoryPills" role="group" aria-label="Filter products by category">
+          <button class="category-pill selected" data-category="All">Everything <span class="pill-number" data-count-for="All">12</span></button>
+          <button class="category-pill" data-category="Tech">Tech <span class="pill-number" data-count-for="Tech">4</span></button>
+          <button class="category-pill" data-category="Home">Home <span class="pill-number" data-count-for="Home">3</span></button>
+          <button class="category-pill" data-category="Style">Style <span class="pill-number" data-count-for="Style">3</span></button>
+          <button class="category-pill" data-category="Wellness">Wellness <span class="pill-number" data-count-for="Wellness">2</span></button>
+        </div>
+        <div class="sort-wrap">
+          <label for="sortSelect">Sort by</label>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="price-low">Price: low to high</option>
+            <option value="price-high">Price: high to low</option>
+            <option value="rating">Top rated</option>
+            <option value="newest">Newest first</option>
+          </select>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        </div>
+      </div>
+      <div class="results-line"><p id="resultsSummary">Showing <strong>12</strong> thoughtfully picked things</p><button class="clear-filters" id="clearFiltersButton" hidden>Clear filters <span>×</span></button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><div class="empty-icon">⌕</div><h3>No little treasures found.</h3><p>Try a different search or clear your filters.</p><button class="button button-dark" id="resetSearchButton">Show everything</button></div>
+      <div class="shop-bottom"><div class="mini-sparkle">✳</div><p>That's the edit. <strong>Good things, no clutter.</strong></p><span>MADE TO BE USED. MADE TO BE LOVED.</span></div>
+    </section>
+
+    <section class="editorial page-width" id="story">
+      <div class="editorial-photo"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1100&q=85" alt="Calm, thoughtfully designed home interior" loading="lazy"><div class="photo-tag">A LITTLE LESS, A LOT BETTER.</div></div>
+      <div class="editorial-copy"><div class="eyebrow"><span class="eyebrow-line"></span> OUR KIND OF NORMAL</div><h2>Less, but<br><em>so much better.</em></h2><p>We believe the everyday deserves a little extra thought. So we look for pieces that work hard, feel good, and earn their place in your life.</p><p>No endless aisles. No just-because stuff. Just a considered collection of objects that make ordinary moments feel special.</p><a class="button button-outline" href="#shop">Get to know the edit <span aria-hidden="true">↗</span></a><div class="editorial-signature">Good things, thoughtfully picked <span>✳</span></div></div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter page-width"><div class="newsletter-deco" aria-hidden="true">✳</div><div class="newsletter-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> THE GOOD LIST</div><h2>A little good<br><em>in your inbox.</em></h2><p>Fresh finds, considered picks, and 10% off your first order. Only the good stuff.</p></div><form class="newsletter-form" id="newsletterForm"><label for="newsletterEmail">Your email address</label><div class="newsletter-input-row"><input id="newsletterEmail" type="email" placeholder="you@example.com" required autocomplete="email"><button type="submit" aria-label="Subscribe to the newsletter">Join us <span>↗</span></button></div><small>By subscribing, you agree to get the occasional good email. Unsubscribe anytime.</small></form></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-main"><div class="footer-brand-col"><a class="brand footer-brand" href="#top"><span class="brand-mark">n<span>.</span></span><span class="brand-word">nova</span></a><p>Everyday essentials for a life well lived.</p><div class="social-row"><a href="#top" aria-label="Instagram">ig ↗</a><a href="#top" aria-label="Pinterest">p ↗</a><a href="#top" aria-label="TikTok">tk ↗</a></div></div><div class="footer-column"><h3>Explore</h3><a href="#shop">Shop all</a><a href="#shop" data-footer-category="Tech">Tech</a><a href="#shop" data-footer-category="Home">Home</a><a href="#shop" data-footer-category="Style">Style</a></div><div class="footer-column"><h3>Here to help</h3><a href="#story">Our story</a><a href="#footerNotes">Shipping & returns</a><a href="#footerNotes">FAQs</a><a href="mailto:hello@novagoods.example">Contact us</a></div><div class="footer-note" id="footerNotes"><span class="footer-note-icon">✳</span><h3>Good things<br>take good care.</h3><p>Questions about your order? Our team is always happy to help.</p><a href="mailto:hello@novagoods.example">hello@novagoods.example ↗</a></div></div>
+    <div class="page-width footer-bottom"><span>© <span id="currentYear"></span> NOVA GOODS. MADE FOR EVERYDAY.</span><div><a href="#footerNotes">Privacy</a><a href="#footerNotes">Terms</a><span>Designed with intention ✳</span></div></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-modal="true" role="dialog" hidden>
+    <div class="drawer-header"><div><span class="drawer-eyebrow">YOUR GOOD FINDS</span><h2 id="cartTitle">Your bag <span id="drawerItemCount">(0)</span></h2></div><button class="icon-button close-drawer" id="closeCartButton" aria-label="Close shopping cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <div class="shipping-progress"><div class="shipping-progress-copy" id="shippingProgressCopy">You're $75 away from free shipping.</div><div class="progress-track"><span id="shippingProgressBar"></span></div></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty"><div class="cart-empty-icon">♡</div><h3>Your bag is feeling light.</h3><p>Let's find something you'll love.</p><button class="button button-dark" id="continueShoppingButton">Explore the edit <span>↗</span></button></div>
+    <div class="drawer-footer" id="drawerFooter">
+      <div class="coupon-form"><label for="couponInput">Got a little something?</label><div class="coupon-input-row"><input id="couponInput" type="text" placeholder="Enter code" autocomplete="off"><button id="applyCouponButton" type="button">Apply</button></div><small id="couponMessage">Try <strong>NOVA10</strong> for 10% off.</small></div>
+      <div class="totals-row"><span>Subtotal</span><strong id="subtotalValue">$0.00</strong></div><div class="totals-row discount-row" id="discountRow" hidden><span>Discount <span id="discountLabel"></span></span><strong id="discountValue">−$0.00</strong></div><div class="totals-row shipping-total"><span>Shipping</span><span id="shippingValue">Calculated at checkout</span></div><div class="totals-row total-row"><span>Total</span><strong id="totalValue">$0.00</strong></div><p class="tax-note">Taxes included where applicable. Shipping calculated at checkout.</p><button class="button button-dark checkout-button" id="checkoutButton">Continue to checkout <span>↗</span></button><div class="secure-note"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 1 1 8 0v3"/></svg> Secure checkout · Demo store</div>
+    </div>
+  </aside>
+
+  <section class="quick-view-modal" id="quickViewModal" role="dialog" aria-modal="true" aria-label="Product details" hidden>
+    <button class="icon-button modal-close" id="closeQuickViewButton" aria-label="Close product details"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <div class="quick-view-content" id="quickViewContent"></div>
+  </section>
+
+  <section class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" hidden>
+    <div class="checkout-header"><div><span class="drawer-eyebrow">ONE LAST THING</span><h2 id="checkoutTitle">Make it yours.</h2></div><button class="icon-button" id="closeCheckoutButton" aria-label="Close checkout"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <div class="checkout-demo-note"><span>✳</span><p><strong>Demo checkout</strong> — no payment will be taken and no order will be shipped. This is a front-end preview.</p></div>
+    <form id="checkoutForm" class="checkout-form">
+      <div class="checkout-section-title"><span>01</span><h3>Where should it go?</h3></div>
+      <div class="form-two-col"><label>First name<input name="firstName" required autocomplete="given-name" placeholder="First name"></label><label>Last name<input name="lastName" required autocomplete="family-name" placeholder="Last name"></label></div>
+      <label>Email address<input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label>
+      <label>Street address<input name="address" required autocomplete="street-address" placeholder="123 Everyday Lane"></label>
+      <div class="form-two-col"><label>City<input name="city" required autocomplete="address-level2" placeholder="Your city"></label><label>Postal code<input name="postal" required autocomplete="postal-code" placeholder="Postal code"></label></div>
+      <div class="checkout-section-title payment-title"><span>02</span><h3>How would you like to pay?</h3></div>
+      <label class="payment-option"><input type="radio" name="payment" value="card" checked><span class="radio-custom"></span><span><strong>Credit or debit card</strong><small>Demo selection only — no card details collected</small></span><span class="payment-symbol">▰</span></label>
+      <label class="payment-option"><input type="radio" name="payment" value="cod"><span class="radio-custom"></span><span><strong>Cash on delivery</strong><small>Pay when your order arrives (demo only)</small></span><span class="payment-symbol">$</span></label>
+      <div class="checkout-summary"><span>Order total</span><strong id="checkoutTotal">$0.00</strong></div>
+      <button type="submit" class="button button-dark checkout-submit">Place demo order <span>↗</span></button>
+      <p class="checkout-disclaimer">This demo does not process payments, store your details, or send orders to a server.</p>
+    </form>
+  </section>
+
+  <section class="success-modal" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle" hidden>
+    <button class="icon-button modal-close" id="closeSuccessButton" aria-label="Close order confirmation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <div class="success-sparkle">✳</div><span class="drawer-eyebrow">A LITTLE SOMETHING TO LOOK FORWARD TO</span><h2 id="successTitle">Well, this is <em>exciting.</em></h2><p id="successMessage">Your demo order has been created for this preview.</p><div class="order-number">DEMO ORDER <strong id="demoOrderNumber">NV-000000</strong></div><button class="button button-dark" id="finishOrderButton">Back to the good stuff <span>↗</span></button><small>Remember: this is a demo store. Nothing has been purchased or shipped.</small>
+  </section>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>
